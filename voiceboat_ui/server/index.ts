@@ -17,6 +17,7 @@ async function startServer() {
 
   // API routes
   app.use(voicebotRouter);
+  // HERE I WILL ADD API ROUTES
 
   // Serve static files from dist/public in production
   const staticPath =
